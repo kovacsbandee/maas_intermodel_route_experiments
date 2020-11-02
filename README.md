@@ -6,4 +6,6 @@ A mobility as a service application aims to solve the ever increasing mobility c
 
 1.  At first the UrbanAccess Python library was tested to create a transport network graph by integrating OSM data with GTFS dataset on the example of Budapest and its agglomeration. The connection of the map graph and the public transport graph is not clear so this course was abandoned.
 
-2.  A graph representation of an intermodal route planning application was implemented based on this [PhD thesis](http://cyber.felk.cvut.cz/teaching/radaUIB/disertace_Hrncir.pdf)
+2.  A graph representation of an intermodal route planning application was implemented based on this [PhD thesis](http://cyber.felk.cvut.cz/teaching/radaUIB/disertace_Hrncir.pdf), because its offering the possibility to use general shortest path finding algorithms like Dijkstra or A*. The results were not convincing, maybe the parts of the graph are not connected properly. 
+
+3.  An own graph representation is needed...
